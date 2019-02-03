@@ -11,16 +11,18 @@
     </div> -->
 
     <vs-row vs-justify="center">
-      <vs-col v-for="(post, i) in posts" :key="i" :frontmatter="post.frontmatter" type="flex" vs-justify="center" vs-align="center" vs-w="12">
-        <vs-card>
-            <!-- <vs-card fixedHeight> -->
-        <div slot="header">
-            <h3>
-              <router-link :to="post.path">{{ post.frontmatter.title }}</router-link>
-            </h3>
-            <div class="date">{{formatDate(post.frontmatter.date)}}</div>
-        </div>
-        <div>
+        <vs-col v-for="(post, i) in posts" :key="i" :frontmatter="post.frontmatter" type="flex" vs-justify="center" vs-align="center" vs-w="12">
+            <vs-card>
+                <!-- <vs-card fixedHeight> -->
+            <div slot="header">
+                <router-link :to="post.path" class="post-link">
+                    <h3>
+                        {{ post.frontmatter.title }}
+                    </h3>
+                </router-link>
+                <div class="date">{{formatDate(post.frontmatter.date)}}</div>
+            </div>
+            <div>
             <p>{{ post.frontmatter.description }}</p>
             
         </div>
@@ -57,5 +59,10 @@ export default {
 
 <style lang="stylus">
 .date
-    text-align right 
+    text-align right
+.post-link
+    color inherit
+    text-decoration none !important
+    &:hover, &.router-link-active
+        color $accentColor
 </style>

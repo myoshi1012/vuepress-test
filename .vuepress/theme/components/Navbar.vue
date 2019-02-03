@@ -185,7 +185,7 @@ $navbar-horizontal-padding = 1.5rem
         fill $accentColor !important
 
 .shadow
-  box-shadow 0px 3px 15px 0px rgba(0, 0, 0, 0.04) !important
+  box-shadow 0px 3px 15px 0px rgba(0, 0, 0, 0.09) !important
 
 
 @media (max-width: $MQMobile)

@@ -115,20 +115,52 @@ export default {
 </script>
 
 <style lang="stylus">
+// .nav-links
+//   display inline-block
+//   a
+//     line-height 1.4rem
+//     color inherit
+//     &:hover, &.router-link-active
+//       color $accentColor
+//   .nav-item
+//     position relative
+//     display inline-block
+//     margin-left 1.5rem
+//     line-height 2rem
+//     &:first-child
+//       margin-left 0
 .nav-links
   display inline-block
   a
-    line-height 1.4rem
+    line-height 1.25rem
     color inherit
+    padding: .7rem;
+    transition: all .2s ease
+    position: relative;
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      width: 0%
+      left: 50%
+      transform: translate(-50%)
+      height: 3px
+      border-radius 0px 0px 2px 2px
+      background: $accentColor
+      transition: all .2s ease
+      top: -1px;
     &:hover, &.router-link-active
       color $accentColor
+    &:hover:after
+      width: 40% !important
   .nav-item
+    cursor: pointer
     position relative
     display inline-block
-    margin-left 1.5rem
-    line-height 2rem
-    &:first-child
-      margin-left 0
+    margin-left .4rem
+    font-weight 500
+    // line-height 2rem
+
   .repo-link
     margin-left 1.5rem
 
@@ -141,8 +173,8 @@ export default {
   .nav-links a
     &:hover, &.router-link-active
       color $textColor
-  .nav-item > a:not(.external)
-    &:hover, &.router-link-active
-      margin-bottom -2px
-      border-bottom 2px solid lighten($accentColor, 8%)
+  // .nav-item > a:not(.external)
+  //   &:hover, &.router-link-active
+  //     margin-bottom -2px
+//      border-bottom 2px solid lighten($accentColor, 8%)
 </style>
