@@ -150,6 +150,7 @@ $navbar-horizontal-padding = 1.5rem
     //position relative
     //right $navbar-horizontal-padding
     //top $navbar-vertical-padding
+    height inherit
     display flex
     .search-box
       flex: 0 0 auto
@@ -159,6 +160,7 @@ $navbar-horizontal-padding = 1.5rem
     align-items center
     width 100%
     justify-content space-between
+    height inherit
   a, span, img
 
 .con-social

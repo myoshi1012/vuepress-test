@@ -134,7 +134,7 @@ export default {
   a
     line-height 1.25rem
     color inherit
-    padding: .7rem;
+    padding: .8rem;
     transition: all .2s ease
     position: relative;
     &:after

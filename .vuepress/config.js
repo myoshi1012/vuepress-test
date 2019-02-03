@@ -30,5 +30,6 @@ module.exports = {
         tagIndexPageUrl: '/blog/tag/'
       }
     ]
-  ]
+  ],
+  host: '0.0.0.0'
 }
