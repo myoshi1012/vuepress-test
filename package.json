@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.0.0-alpha.32",
+    "vuepress": "^1.0.0-alpha.32"
+  },
+  "dependencies": {
+    "vuesax": "^3.8.16"
+  }
+}
