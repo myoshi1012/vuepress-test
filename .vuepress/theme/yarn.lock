@@ -13,13 +13,13 @@ moment@^2.24.0:
   integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
 
 vue@^2.5.17:
-  version "2.5.22"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.22.tgz#3bf88041af08b8539c37b268b70ca79245e9cc30"
-  integrity sha512-pxY3ZHlXNJMFQbkjEgGVMaMMkSV1ONpz+4qB55kZuJzyJOhn6MSy/YZdzhdnumegNzVTL/Dn3Pp4UrVBYt1j/g==
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.6.tgz#dde41e483c11c46a7bf523909f4f2f816ab60d25"
+  integrity sha512-Y2DdOZD8sxApS+iUlwv1v8U1qN41kq6Kw45lM6nVZKhygeWA49q7VCCXkjXqeDBXgurrKWkYQ9cJeEJwAq0b9Q==
 
 vuesax@^3.8.16:
-  version "3.8.16"
-  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-3.8.16.tgz#68180d998593876b0bf6efe221f53aa5bbedd3b0"
-  integrity sha512-A+gmoiHpHrrxs405b0xMIJON+9IL948GXm6mdI0d1UxbpaGUApN1MiDEIMeDuPW7JHtrfQmQ8w2hCLbP4iOilw==
+  version "3.8.20"
+  resolved "https://registry.yarnpkg.com/vuesax/-/vuesax-3.8.20.tgz#3fab6b627ee2e00464c8fa8a61fe7f5a665e7042"
+  integrity sha512-xQO1WFYrWOkocbdcPB0N9yQm8mtXcPtNiVLmqdbJUS3Mqxy+4SYn6cVNOH12vGN0RHK/NZNe46Ymq16QlFimbQ==
   dependencies:
     vue "^2.5.17"

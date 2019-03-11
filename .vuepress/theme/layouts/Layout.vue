@@ -54,7 +54,7 @@ import Page from '../components/Page.vue'
 import Sidebar from '../components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 import '../icons/font/flaticon.css'
-import 'vuesax/dist/vuesax.css'
+import '../node_modules/vuesax/dist/vuesax.css'
 
 export default {
   components: { Home, Page, Sidebar, Navbar },

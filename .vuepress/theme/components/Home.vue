@@ -17,10 +17,7 @@
         class="action"
         v-if="data.actionText && data.actionLink"
       >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+        <vs-button size="large" :to="actionLink.link">{{actionLink.text}}</vs-button>
       </p>
     </header>
 
@@ -98,7 +95,7 @@ export default {
       color #fff
       background-color $accentColor
       padding 0.8rem 1.6rem
-      border-radius 4px
+      border-radius 6px
       transition background-color .1s ease
       box-sizing border-box
       border-bottom 1px solid darken($accentColor, 10%)
@@ -130,6 +127,10 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
+  
+  .vs-button.large
+    padding 0.9rem 1.6rem
+    font-size 1.2rem
 
 @media (max-width: $MQMobile)
   .home

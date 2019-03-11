@@ -2,13 +2,13 @@ const { generateBlogSideBar } = require('./util')
 
 
 module.exports = {
-  title: 'tamalog',
+  title: 'mayonaka',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' }
     ],
-    repo: 'shiratamag',
+    repo: 'myoshi1012',
     sidebar: [
       ...generateBlogSideBar('/posts'),
     ],

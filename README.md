@@ -1,7 +1,7 @@
 ---
 home: true
-tagline: 未完成
-heroImage: '/img/profile.png'
+tagline: どこへゆくのか
+heroImage: '/img/profile2.gif'
 actionText: 'Blog'
 actionLink: '/blog/'
 ---

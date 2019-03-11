@@ -1,4 +1,5 @@
 import Vuesax from 'vuesax'
+import moment from 'moment'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -17,4 +18,5 @@ export default ({
       }
     }
   })
+  Vue.use(moment)
 }

@@ -50,8 +50,9 @@ export default {
     },
     methods: {
         formatDate(datestr) {
-            const date =  new Date(datestr)
-            return date.getFullYear() + '/' + (date.getMonth() + 1) + '/' + date.getDate()
+            const moment = require('moment')
+            const date = moment(datestr, "YYYY-MM-DD")
+            return date.format("MMMM DD YYYY")
         }
     }
 }
